@@ -1,0 +1,433 @@
+﻿
+
+@media screen and (min-width: 1700px) {
+    .container {
+        max-width: 105rem !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 95rem;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    .products .sidebar li {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media (max-width:1599px) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    .block {
+        padding: 5rem 0;
+    }
+
+    .send-enquiry img {
+        width: 40px;
+    }
+
+    .logo img {
+        max-height: 50px;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slick-dots li button:before {
+        border: 6px solid #213389;
+    }
+
+    #bannerSlider .caption h1 {
+        font-size: 3rem;
+    }
+
+    .h2 {
+        font-size: 2.2rem;
+    }
+
+    .h3 {
+        font-size: 1.5rem;
+    }
+
+    .h4 {
+        font-size: 1.4rem;
+    }
+
+    .h5 {
+        font-size: 1.3rem;
+    }
+
+    .h6 {
+        font-size: 1.2rem;
+    }
+
+    .weoffer-block .weoffer-overlay img {
+        width: 4rem;
+    }
+
+    .weserve-industry div div {
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+    }
+
+    .weserve-industry .weserve-img img {
+        width: 3rem;
+    }
+
+    .center-slider .slick-slide {
+        margin: 20px;
+    }
+
+    .project-block span {
+        font-size: 1.4rem;
+        top: -5px;
+        right: -5px;
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .counter .card-counter img {
+        width: 276px;
+    }
+
+    .contact .left-wrapper img {
+        width: 2.4rem;
+    }
+
+    .service-sidebar {
+        top: 120px;
+    }
+
+    .contact .card {
+        padding: 3rem;
+    }
+
+    .contact .left-wrapper {
+        padding: 0 2rem;
+    }
+
+    .counter .card-body .h6 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .weoffer-block .btn-bluechip {
+        opacity: 0;
+    }
+
+    .weoffer-block:hover .btn-bluechip {
+        opacity: 1;
+        display: inline-block;
+        transition: .3s linear;
+    }
+
+    .weoffer-block:hover .weoffer-overlay h5 {
+        margin-top: 14px;
+        margin-bottom: 50px;
+        transition: .3s linear;
+    }
+
+    .weoffer-block .btn-bluechip {
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        text-align: center;
+        transform: translateX(-50%);
+        transition: opacity .35s ease;
+    }
+}
+
+@media (max-width: 1199px) {
+
+
+    .block {
+        padding: 5rem 0;
+    }
+
+    .logo img {
+        max-height: 40px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slick-dots li button:before {
+        border: 6px solid #213389;
+    }
+
+    #bannerSlider .caption h1 {
+        font-size: 3rem;
+    }
+
+    .h6 {
+        font-size: 1.1rem;
+    }
+
+
+    .weoffer-block .weoffer-overlay img {
+        width: 4rem;
+    }
+
+    .weserve-industry div div {
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+    }
+
+    .weserve-industry .weserve-img img {
+        width: 3rem;
+    }
+
+    .center-slider .slick-slide {
+        margin: 10px;
+    }
+
+    .project-block span {
+        font-size: 1.4rem;
+        top: -5px;
+        right: -5px;
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .form {
+        padding: 40px 20px;
+    }
+
+    .top-banner {
+        height: 500px;
+    }
+
+    .breadcrumb li, .breadcrumb li a {
+        font-size: 1rem;
+    }
+    .main-home-banner .caption h1 {
+        font-size:4rem;
+    }
+    .overview-section {
+        top: 45%;
+    }
+    /* about*/
+    .counter .card-body .h2 {
+        margin-bottom: 0rem;
+    }
+
+    .counter .card-body .h6 {
+        font-size: .8rem;
+        line-height: normal;
+    }
+
+    .contact .left-wrapper img {
+        width: 2.2rem;
+    }
+
+    .products .sidebar {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .products .product-media h4 {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .counter .card-body .h1 {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+
+    .bg-offer
+    .weoffer-block .weoffer-overlay .h5 {
+        font-size: 1rem;
+    }
+
+    .weoffer-block .weoffer-overlay img {
+        width: 3rem;
+    }
+
+    .weoffer-block .weoffer-overlay .btn {
+        font-size: .9rem;
+        margin: .2rem !important;
+    }
+
+    .counter .card-counter img {
+        width: 226px;
+    }
+
+    .bg-career .left-wrapper {
+        padding: 3rem;
+    }
+}
+
+
+@media (max-width:991px) {
+
+    .navigation-wrap {
+        position: fixed;
+        background: #fff;
+    }
+
+    .counter .card-counter img {
+        width: 214px;
+        margin: .2rem;
+    }
+    .main-home-banner .caption h1 {
+        font-size: 3rem;
+    }
+    .main-home-banner .caption {
+        top:14%;
+    }
+    .overview-section {
+        top: 19%;
+    }
+    /*team*/
+    .team .profile {
+        width: 10rem;
+        min-width: auto;
+        margin: 10px auto;
+    }
+
+        .team .profile img {
+            width: 10rem;
+            height: 10rem;
+            object-fit: cover;
+            border-radius: 50%;
+            background: #dee0ec;
+        }
+
+    .contact .left-wrapper,
+    .contact .right-wrapper {
+        width: 100%;
+    }
+
+    .contact .card {
+        padding: 3rem;
+    }
+
+    .contact .left-wrapper, .contact .right-wrapper {
+        padding: 0;
+    }
+
+        .contact .left-wrapper.border-right {
+            border-right: none !important;
+        }
+
+    .footer li {
+        margin-bottom: 10px;
+    }
+
+    .bg-career .left-wrapper,
+    .bg-career .right-wrapper {
+        width: 100%;
+    }
+    .about-overview {
+        margin-top: 50px;
+    }
+
+        .about-overview .section-heading .text-white, .about-overview {
+            color: #000000 !important;
+        }
+
+    .overview-section {
+        position: unset;
+    }
+    #bannerSlider .slick-list, #bannerSlider .slick-track {
+        height: 500px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+
+    .counter .card-counter {
+        margin: .5rem;
+        width: 30%;
+    }
+}
+
+@media (max-width:767px) {
+    .main-home-banner .caption h1 {
+        font-size: 2.4rem;
+    }
+    about-overview .h2 {
+        font-size:1.8rem;
+    }
+    .products .product-media h4 {
+        position: relative;
+        background: rgb(33, 51, 137) !important;
+    }
+
+    .counter .card-counter {
+        width: 45%;
+        text-align: center;
+    }
+
+    .counter .card-body {
+       padding: 6px;
+    }
+    .accourdion-card-body .col-sm-6:first-child img {
+        margin-bottom: 2rem;
+    }
+    .acccourdion-btn button {
+        padding: 0.8rem 2rem 0.8rem 1rem;
+    }
+    .grey-bg {
+        padding: 2rem 1rem 1rem;
+    }
+    .accourdion-card-body {
+        padding: 1rem 0.8rem;
+    }
+    .accourdion h3 {
+        font-size:1.2rem;
+    }
+    .clients-logo .logos > div {
+        width: 9rem;
+        height: auto;
+        margin: 0.4rem;
+    }
+    .clients-logo .logos img {
+        padding: 0.8rem;
+     }
+}
+
+

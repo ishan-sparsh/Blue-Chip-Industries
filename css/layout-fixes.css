@@ -1,0 +1,117 @@
+/* Navbar overlays banner; full-width banners and footers */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 0 !important;
+}
+
+/* Header must not reserve vertical space — nav is position:fixed */
+#header {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    border: none;
+}
+
+.body-content {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    /* Do not set overflow here — it breaks position:sticky on product sidebars */
+}
+
+/* Inner page banners flush to top, under fixed navbar */
+section:has(> .top-banner) {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.top-banner {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+
+/* Homepage hero full width */
+.main-home-banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-home-banner .slider,
+.main-home-banner .slick-list,
+.main-home-banner .slick-track {
+    width: 100%;
+}
+
+/* Full-width background sections */
+.bg-offer,
+.bg-serve,
+.bg-project,
+.bg-testimonials,
+.bg-contact,
+.bg-career,
+.contact {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Footer full width */
+.body-content > img.w-100,
+footer,
+footer .footer,
+.copyright {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer.bg-footer,
+.copyright .container-full {
+    width: 100%;
+    max-width: 100%;
+}
+
+.container-full {
+    width: 100%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Product pages — fixed sidebar while scrolling (desktop) */
+@media (min-width: 992px) {
+    .products .scroll-wrapper,
+    .products .scroll-wrapper > .row,
+    .products .col-lg-4 {
+        overflow: visible;
+    }
+
+    .products .sidebar {
+        position: sticky;
+        top: 8rem;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 991px) {
+    .products .sidebar {
+        position: static;
+    }
+}

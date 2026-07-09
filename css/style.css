@@ -14,7 +14,7 @@ body {
 
 p, li {
     margin-bottom: .5rem;
-    text-align: justify !important;
+    /* text-align: justify !important; */
 }
 
 a {
@@ -157,7 +157,7 @@ a {
                 left: 0;
                 width: 15px;
                 height: 15px;
-                content: 'ù';
+                content: 'ÔøΩ';
                 text-align: center;
                 opacity: 1;
                 color: black;
